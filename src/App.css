@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-color:#282c34;
+}
+
+.search:hover {
+  background-color: #d8dae0;
+  border: #61dafb;
+
+}
