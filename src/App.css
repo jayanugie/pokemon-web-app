@@ -38,7 +38,8 @@
 }
 
 .background {
-  background-color:#282c34;
+  background-image: url('../public/background.jpg');
+  height: 100vh;
 }
 
 .search:hover {
