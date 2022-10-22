@@ -9,25 +9,34 @@ function PokeInfo({ data }) {
         ""
       ) : (
         <>
-          <div className="App-header">
-            <h3>{data.name}</h3>
+          <div className="m-5">
+            <h2>{data.name}</h2>
             <img
-              className="bg-white bg-transparent"
+              className="bg-white bg-transparent img-fluid p-3"
               src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`}
               alt="pokemon"
             />
-            {data.abilities.map((poke) => {
-              return (
-                <>
-                  <p>{poke.ability.name}</p>
-                </>
-              );
-            })}
+            <div>
+              <p className="fst-italic m-0 fs-4 text-decoration-underline">
+                Ability:
+              </p>
+              {data.abilities.map((poke) => {
+                return (
+                  <div>
+                    <p className="m-0 fst-italic m-0 fs-5 fw-light">
+                      {poke.ability.name}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+            <p className="fst-italic m-0 fs-4 text-decoration-underline mt-3">
+              Stats:
+            </p>
             {data.stats.map((poke) => {
               return (
                 <>
-                  <p>ABILITY</p>
-                  <p>
+                  <p className="fst-italic m-0 fw-light fs-5">
                     {poke.stat.name}: {poke.base_stat}
                   </p>
                 </>
