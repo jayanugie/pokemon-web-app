@@ -65,7 +65,7 @@ function PokemonList() {
               <div>
                 {prevUrl && (
                   <button
-                    className="btn btn-sm btn-secondary mx-2"
+                    className="btn btn-sm btn-secondary mx-2 mt-2 mb-5"
                     onClick={() => {
                       setPokeData([]);
                       setUrl(prevUrl);
@@ -76,7 +76,7 @@ function PokemonList() {
                 )}
                 {nextUrl && (
                   <button
-                    className="btn btn-sm btn-secondary mx-2"
+                    className="btn btn-sm btn-secondary mx-2 mt-2 mb-5"
                     onClick={() => {
                       setPokeData([]);
                       setUrl(nextUrl);

@@ -50,3 +50,8 @@ body {
 div a:hover {
   text-decoration: underline;
 }
+
+.pointer {
+  cursor: pointer;;
+}
+
