@@ -47,3 +47,7 @@
   border: #61dafb;
 
 }
+
+div a:hover {
+  text-decoration: underline;
+}

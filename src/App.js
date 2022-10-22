@@ -2,7 +2,6 @@ import "./App.css";
 import { useState } from "react";
 import axios from "axios";
 import Navbar from './components/Navbar';
-import Footer from "./components/Footer";
 
 function App() {
   const [pokemonName, setPokemonName] = useState("");
@@ -47,9 +46,9 @@ function App() {
       <div>
         <div className="container">
           <div className="d-flex justify-content-center m-5">
-            <div className="input-group input-group-lg w-25">
+            <div className="input-group input-group-lg w-50">
               <input
-                placeholder="Search Pokemon"
+                placeholder="Search Pokemon Name"
                 type="text"
                 className="form-control"
                 onChange={(e) => setPokemonName(e.target.value)}
@@ -95,8 +94,6 @@ function App() {
         </div>
       </div>
 
-      {/* footer */}
-      <Footer />
     </div>
   );
 }

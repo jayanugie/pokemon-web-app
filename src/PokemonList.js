@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Card from "./components/Card";
@@ -43,7 +42,9 @@ function PokemonList() {
 
   useEffect(() => {
     pokeFun();
+    /* eslint-disable */
   }, [url]);
+  /* eslint-enable */
 
   return (
     <div className="background">
@@ -94,8 +95,6 @@ function PokemonList() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }
