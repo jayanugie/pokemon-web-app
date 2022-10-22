@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <div className="background">
+    <div>
       {/* navbar */}
       <Navbar />
 

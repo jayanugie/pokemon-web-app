@@ -37,9 +37,8 @@
   }
 }
 
-.background {
+body {
   background-image: url('../public/background.jpg');
-  height: 100vh;
 }
 
 .search:hover {
