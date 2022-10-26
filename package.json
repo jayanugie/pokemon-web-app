@@ -1,7 +1,7 @@
 {
   "name": "pokemon-web-app",
   "version": "0.1.0",
-  "homepage": "https://pokemon-web-app.github.io/",
+  "homepage": "https://jayanugie.github.io/pokemon-web-app",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
