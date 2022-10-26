@@ -11,8 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/pokemon-list" element={<PokemonList />} />
+      <Route path="/pokemon-web-app/" element={<App />} />
+      <Route path="/pokemon-web-app/pokemon-list" element={<PokemonList />} />
     </Routes>
   </BrowserRouter>
 );

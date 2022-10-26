@@ -9,10 +9,10 @@ function Navbar() {
     <nav className="navbar bg-dark">
       <div className="container">
         <div>
-          <NavLink to="/" className="navbar-brand mb-0 text-white">
+          <NavLink to="/pokemon-web-app/" className="navbar-brand mb-0 text-white">
             Pokemon Stats
           </NavLink>
-          <NavLink to="/pokemon-list" className="navbar-brand mb-0 text-white">
+          <NavLink to="/pokemon-web-app/pokemon-list" className="navbar-brand mb-0 text-white">
             Pokemon List
           </NavLink>
         </div>
