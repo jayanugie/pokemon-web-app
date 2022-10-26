@@ -54,8 +54,8 @@ function PokemonList() {
       <div className="container text-center">
         <div className="row text-white">
           {/* list */}
-          <div className="col">
-            <div className="row row-cols-2 p-3" style={{ height: "86vh" }}>
+          <div className="col-6">
+            <div className="row row-cols-lg-2 p-3" style={{ height: "86vh" }}>
               <Card
                 pokemon={pokeData}
                 loading={loading}
