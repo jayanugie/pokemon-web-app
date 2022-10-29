@@ -2,6 +2,9 @@ import "./App.css";
 import { useState } from "react";
 import axios from "axios";
 import Navbar from './components/Navbar';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+
 
 function App() {
   const [pokemonName, setPokemonName] = useState("");
@@ -57,7 +60,7 @@ function App() {
                 className="rounded-end border search"
                 onClick={searchPokemon}
               >
-                <img src="/search.png" alt="search" />
+                <FontAwesomeIcon style={{width: "30px"}} icon={faSearch} />
               </button>
             </div>
           </div>
